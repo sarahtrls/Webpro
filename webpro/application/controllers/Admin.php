@@ -41,13 +41,13 @@ class Admin extends CI_Controller {
             echo"
             <script>
                 alert('Pesanan gagal diterima');
-				document.location.href = '/webpro/konfirmasi';
+				document.location.href = '../konfirmasi';
             </script>";
         }
         echo"
         <script>
             alert('Pesanan berhasil diterima');
-			document.location.href = '/webpro/konfirmasi';
+			document.location.href = '../konfirmasi';
         </script>";
 	}
 }
