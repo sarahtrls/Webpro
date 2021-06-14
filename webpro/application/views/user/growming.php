@@ -59,9 +59,9 @@
                 <select class="custom-select" name="paket">
                   <option selected>Pilih Paket</option>
                   <option value="Anjing">Anjing</option>
-                  <option value="Anjing">Kelinci</option>
+                  <option value="Kelinci">Kelinci</option>
                   <option value="Kucing">Kucing</option>
-                  <option value="Anjing">Lainnya</option>
+                  <option value="Lainnya">Lainnya</option>
                 </select>
       
                 <div class="form-group">
