@@ -68,14 +68,14 @@ class Member extends CI_Controller {
             echo"
             <script>
                 alert('Profile berhasil diubah');
-                document.location.href = '/webpro/profile';
+                document.location.href = 'profile';
             </script>";
         }
         else {
             echo"
             <script>
                 alert('Profile gagal diubah');
-                document.location.href = '/webpro/profile';
+                document.location.href = 'profile';
             </script>";
         }
 
@@ -97,7 +97,7 @@ class Member extends CI_Controller {
             echo"
             <script>
                 alert('Terjadi kesalahan upload');
-                document.location.href = '/webpro/profile'	;
+                document.location.href = 'profile'	;
             </script>";die();
         }
 		else
@@ -181,13 +181,13 @@ class Member extends CI_Controller {
             echo"
             <script>
                 alert('Pesanan gagal dihapus');
-				document.location.href = '/webpro/daftar_grooming';
+				document.location.href = '../daftar_grooming';
             </script>";
         }
         echo"
         <script>
             alert('Pesanan berhasil dihapus');
-			document.location.href = '/webpro/daftar_grooming';
+			document.location.href = '../daftar_grooming';
         </script>";
 	}
 }
